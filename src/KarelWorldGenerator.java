@@ -15,5 +15,6 @@ public class KarelWorldGenerator {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 }

@@ -23,7 +23,7 @@ public class KarelWorld implements Serializable {
         int nBeepers;
     }
 
-    private class Karel implements Serializable {
+    public class Karel implements Serializable {
         int x;
         int y;
         WDirection dir;
@@ -34,6 +34,19 @@ public class KarelWorld implements Serializable {
             this.y = y;
             this.dir = dir;
             this.nBeepers = nBeepers;
+
         }
+    }
+
+    public int getRows() {
+        return rows;
+    }
+
+    public int getCols() {
+        return cols;
+    }
+
+    public Karel getKarel() {
+        return karel;
     }
 }
