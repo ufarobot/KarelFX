@@ -1,0 +1,11 @@
+{
+  "rowCount": 10,
+  "colCount": 10,
+  "corners": [],
+  "karel": {
+    "x": 11,
+    "y": 1,
+    "direction": "EAST",
+    "beeperCount": "INFINITY"
+  }
+}
